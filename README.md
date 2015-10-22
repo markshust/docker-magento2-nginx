@@ -1,6 +1,6 @@
 # Versions
 
-- [`1.9`, `latest` (_Dockerfile_)](https://bitbucket.org/mageinferno/docker-magento2-nginx/src/master/1.9/Dockerfile)
+- [`1.9`, `latest` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/blob/master/1.9/Dockerfile)
 
 # Description
 
@@ -23,7 +23,7 @@ The following line is included to run proper filesystem permissions when using [
 
 ## Docker Compose
 
-We created a [`docker-compose.yml`](https://bitbucket.org/mageinferno/magento2-docker-compose/src/master/docker-compose.yml) file with a default development environment setup for use with our Magento 2 Docker images.
+We created a [`docker-compose`](https://github.com/mageinferno/magento2-docker-compose) configuration with a default development environment setup for use with our Magento 2 Docker images.
 
 Create a new folder to house your project, ex: `~/Sites/mysite`, then place your docker-compose.yml file within this directory.
 
