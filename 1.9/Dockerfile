@@ -5,7 +5,6 @@ ADD ./default.conf /etc/nginx/conf.d/
 
 RUN useradd -p $(openssl passwd -1 magento) magento \
   && adduser magento www-data \
-  && usermod -u 501 magento \
-  && usermod -u 1000 magento
+  && usermod -u 501 www-data
 
 WORKDIR /src
