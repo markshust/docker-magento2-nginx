@@ -1,13 +1,11 @@
 FROM nginx:1.9
 MAINTAINER Mark Shust <mark.shust@mageinferno.com>
 
-RUN apt-get update \
-  && apt-get install -y \
-    git \
-    vim
-
 ADD ./default.conf /etc/nginx/conf.d/
 
-RUN usermod -u 501 nginx
+RUN useradd -p $(openssl passwd -1 magento) magento \
+  && adduser magento www-data \
+  && usermod -u 501 magento \
+  && usermod -u 1000 magento
 
 WORKDIR /src
