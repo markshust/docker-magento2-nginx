@@ -16,8 +16,7 @@ This image installs the following:
 
 A new `magento` user is created that belongs to the web server group, and the following lines are included to run proper filesystem permissions when using ['Boot2Docker'](http://boot2docker.io/) or ['Dinghy'](https://github.com/codekitchen/dinghy) on OS X:
 
-`RUN usermod -u 501 magento`
-`RUN usermod -u 1000 magento`
+`usermod -u 501 magento && usermod -u 1000 magento`
 
 # How to use this image?
 
