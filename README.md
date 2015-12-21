@@ -1,6 +1,6 @@
 # Versions
 
-- [`1.9.9`, `1.9`, `latest` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.9-0/Dockerfile)
+- [`1.9.9-0`, `latest` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.9-0/Dockerfile)
 
 # Description
 
@@ -22,16 +22,14 @@ To use this image, create Dockerfile in the root of your project with anything s
 For example, if using [Dinghy](https://github.com/codekitchen/dinghy) on OS X, use:
 
 ```
-FROM mageinferno/magento2-nginx/1.9.9
+FROM mageinferno/magento2-nginx:[TAG]
 RUN usermod -u 501 www-data
 ```
 
-Build your custom image:
+Then build your custom image:
 
 ```
 docker build -t myname/foobar .
 ```
-
-Now you can push this image to Docker Hub or have it running privately on your system.
 
 Please see <a href="https://github.com/mageinferno/magento2-docker-compose" target="_blank">https://github.com/mageinferno/magento2-docker-compose</a> for more detailed instructions and an example development environment using Docker Compose.
