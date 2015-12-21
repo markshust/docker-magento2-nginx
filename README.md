@@ -14,21 +14,21 @@ This image installs the following:
 
 # How to use this image?
 
-This image will work out-of-the-box with linux-based systems.
+This image will work out-of-the-box with Linux-based systems.
 
-To use this image on other systems for local development, creating a Dockerfile in the root of your project with anything specific to your local development platform.
+To use this image on other systems for local development, create Dockerfile with anything specific to your local development platform.
 
 For example, if using [Dinghy](https://github.com/codekitchen/dinghy) on OS X, use:
 
 ```
 FROM mageinferno/magento2-nginx:[TAG]
-RUN usermod -u 501 www-data
+RUN usermod -u 501 magento
 ```
 
 Then build your custom image:
 
 ```
-docker build -t myname/foobar .
+docker build -t myname/nginx .
 ```
 
 # Docker Compose
