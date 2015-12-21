@@ -14,7 +14,9 @@ This image installs the following:
 
 # How to use this image?
 
-To use this image, create Dockerfile in the root of your project with anything specific to your local development platform.
+This image will work out-of-the-box with linux-based systems.
+
+To use this image on other systems for local development, creating a Dockerfile in the root of your project with anything specific to your local development platform.
 
 For example, if using [Dinghy](https://github.com/codekitchen/dinghy) on OS X, use:
 
@@ -28,5 +30,7 @@ Then build your custom image:
 ```
 docker build -t myname/foobar .
 ```
+
+# Docker Compose
 
 Please see <a href="https://github.com/mageinferno/magento2-docker-compose" target="_blank">https://github.com/mageinferno/magento2-docker-compose</a> for more detailed instructions and an example development environment using Docker Compose.
