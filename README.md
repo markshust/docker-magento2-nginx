@@ -1,6 +1,6 @@
 # Versions
 
-- [`1.9.9-1` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.9-1/Dockerfile)
+- [`1.9.9-2` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.9-2/Dockerfile)
 
 # Description
 
@@ -22,7 +22,7 @@ For example, if using [Dinghy](https://github.com/codekitchen/dinghy) on OS X, u
 
 ```
 FROM mageinferno/magento2-nginx:[TAG]
-RUN usermod -u 501 magento
+RUN usermod -u 501 www-data
 ```
 
 Then build your custom image:
