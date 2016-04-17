@@ -1,6 +1,6 @@
 # Versions
 
-- [`1.9.12-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.12-0/Dockerfile)
+- [`1.9.14-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.14-0/Dockerfile)
 
 # Description
 
@@ -35,7 +35,6 @@ docker build -t myname/nginx .
 
 The following environment variables are used for Nginx configuration:
 
-- `VIRTUAL_HOST`: (default: `''`) The server name of the virtual host.
 - `PHP_HOST`: (default: `phpfpm`) The hostname of the PHP container.
 - `PHP_PORT`: (default: `9000`) The port of the PHP container.
 - `APP_MAGE_MODE`: (default: `default`) Set the appropriate MAGE_MODE.
