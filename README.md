@@ -12,10 +12,6 @@ This image installs the following:
 
 - `nginx`
 
-# How to use this image?
-
-This image will work out-of-the-box with Linux-based systems.
-
 # Variables
 
 The following environment variables are used for Nginx configuration:
