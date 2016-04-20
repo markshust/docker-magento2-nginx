@@ -16,21 +16,6 @@ This image installs the following:
 
 This image will work out-of-the-box with Linux-based systems.
 
-To use this image on other systems for local development, create Dockerfile with anything specific to your local development platform.
-
-For example, if using [Dinghy](https://github.com/codekitchen/dinghy) on OS X, use:
-
-```
-FROM mageinferno/magento2-nginx:[TAG]
-RUN usermod -u 501 www-data
-```
-
-Then build your custom image:
-
-```
-docker build -t myname/nginx .
-```
-
 # Variables
 
 The following environment variables are used for Nginx configuration:
