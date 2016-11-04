@@ -1,6 +1,7 @@
 # Versions
 
 - [`1.11.5-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.11.5-0/Dockerfile)
+- [`1.10.1-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.10.1-0/Dockerfile)
 - [`1.9.14-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.14-0/Dockerfile)
 
 # Description
