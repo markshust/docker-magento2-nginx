@@ -1,4 +1,4 @@
-FROM nginx:1.10.1
+FROM nginx:1.11.5
 MAINTAINER Mark Shust <mark.shust@mageinferno.com>
 
 ENV PHP_HOST phpfpm
