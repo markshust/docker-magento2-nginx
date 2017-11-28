@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This repo has been migrated into https://github.com/markoshust/magento2-docker - please see this repo for future updates!
+
 # Versions
 
 - [`1.11-1` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.11-1/Dockerfile)
